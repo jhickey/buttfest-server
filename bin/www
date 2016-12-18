@@ -3,11 +3,11 @@
 /**
  * Module dependencies.
  */
-import '../src/env';
-import app from '../src/app';
-import socket from '../src/socket';
-import dbg from 'debug';
-import http from 'http';
+require('../dist/env');
+const app = require('../dist/app');
+const socket = require('../dist/socket');
+const dbg = require('debug');
+const http = require('http');
 
 const debug = dbg('bf:server');
 
