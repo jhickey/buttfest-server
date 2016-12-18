@@ -17,6 +17,7 @@ router.post('/',  (req, res) => {
         res.json({error: 'Invalid request'});
         return;
     }
+    global.temperature = temperature;
     res.json({temperature});
     sio.io().emit('temperature', {temperature});
     statsdClient.gauge('grill_temp', temperature);

@@ -6,7 +6,8 @@ class BFSocket {
     }
     initialize(server) {
         this._io = sio(server);
-        this._io.on('connection',  () => {
+        this._io.on('connection',  socket => {
+            socket.emit('temperature', {temperature: global.temperature});
             console.log('Connection!');
         });
     }
