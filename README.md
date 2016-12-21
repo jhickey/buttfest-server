@@ -14,3 +14,21 @@ npm start
 ```
 
 That's pretty much it!
+
+
+##Endpoints
+
+###`POST /` Set the temperature
+ 
+Request body: 
+ 
+ ```javascript
+ {
+   "temperature": 210, //degrees fahrenheit, an integer
+   "type": "ambient" //optional, will default to 'ambient' if not provided
+ }
+ ```
+ 
+ A valid request will just echo back in the response. The request will also be sent to the client via the socket for real time updates.
+ 
+ 
