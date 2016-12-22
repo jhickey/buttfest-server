@@ -1,7 +1,7 @@
 #Buttfest control panel
 
 ##Setup
-Get this running and then set up the front end: [jhickey/buttfest-server](https://github.com/jhickey/buttfest)
+Get this running and then set up the front end: [jhickey/buttfest](https://github.com/jhickey/buttfest)
 
 Install dependencies:
 ```
