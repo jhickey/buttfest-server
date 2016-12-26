@@ -12,7 +12,7 @@ const http = require('http');
 
 const debug = dbg('bf:server');
 
-global.temperature = 0;
+global.temperature = {};
 
 /**
  * Get port from environment and store in Express.
