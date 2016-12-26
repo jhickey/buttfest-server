@@ -18,7 +18,7 @@ That's pretty much it!
 
 ##Endpoints
 
-###`POST /` Set the temperature
+###`POST /temperature` Set the temperature
  
 Request body: 
  

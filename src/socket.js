@@ -17,6 +17,5 @@ class BFSocket {
     }
 
 }
-console.log('new instance');
 const bfSocket = new BFSocket();
 export default bfSocket;

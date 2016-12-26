@@ -3,6 +3,7 @@
 /**
  * Module dependencies.
  */
+require('babel-polyfill');
 require('../dist/env');
 const app = require('../dist/app');
 const socket = require('../dist/socket');
